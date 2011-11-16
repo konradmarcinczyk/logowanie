@@ -1,0 +1,8 @@
+.post
+ %h2.title
+   Uzytkownicy
+ .entry
+   %ul
+     - for u in @users
+       %li
+         = u.email
