@@ -8,6 +8,7 @@ gem 'rails', '3.1.0'
 gem 'sqlite3'
 gem 'haml'
 gem 'devise'
+gem 'closure-compiler'
 # gem 'therubyracer'
 
 # Gems used only for assets and not required
@@ -15,7 +16,7 @@ gem 'devise'
 group :assets do
   gem 'sass-rails', "  ~> 3.1.0"
   gem 'coffee-rails', "~> 3.1.0"
-#  gem 'uglifier'
+  gem 'uglifier'
 end
 
 group :production do
